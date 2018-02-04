@@ -1,0 +1,150 @@
+Date: 1/26/2015	Arista Networks	Cost:$64.35
+Date: 8/7/2014	Arista Networks	Cost:$72.66
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Date: 12/29/2015	Arista Networks	Cost:$79.44
+Date: 1/29/2015	Arista Networks	Cost:$66.87
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Date: 6/11/2015	Arista Networks	Cost:$81.71
+Date: 4/23/2015	Arista Networks	Cost:$66.90
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Date: 5/13/2015	Arista Networks	Cost:$66.58
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Date: 10/26/2015	Arista Networks	Cost:$68.69
+Date: 4/6/2015	Arista Networks	Cost:$66.67
+Date: 12/24/2015	Arista Networks	Cost:$75.21
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Date: 7/7/2015	Arista Networks	Cost:$81.93
+Date: 8/7/2015	Arista Networks	Cost:$87.60
+Corporate history
+Andy Bechtolsheim co-founded Sun Microsystems in 1982 and was its chief hardware designer. In 1995, 
+David Cheriton co-founded Granite Systems with Bechtolsheim, a company that developed Gigabit Ethernet products, which 
+was acquired by Cisco Systems in 1996.[7] In 2001, Cheriton and Bechtolsheim founded another start up, Kealia,[8] 
+which was acquired by Sun in 2004. From 1996 to 2003, Bechtolsheim and Cheriton occupied executive positions at Cisco, 
+leading the development of the Catalyst product line, along with Kenneth Duda who had been Granite Systems' first employee.[9]
+
+In 2004, the three then went on to found Arastra (later renamed Arista[2]). Bechtolsheim and Cheriton were able to fund the company 
+themselves.[10] In May 2008, Jayshree Ullal left Cisco after 15 years at the company, and was appointed CEO of Arista in October 2008.[11]
+
+In June 2014, Arista Networks had its initial public offering on the New York Stock Exchange under the symbol ANET.[12]
+
+In December 2014, Cisco filed two lawsuits against Arista alleging extensive intellectual property infringement.[13]
+
+Products
+Extensible Operating System
+EOS is Arista's network operating system, and comes as a single image that runs across all Arista devices[14] or in a 
+Date: 12/21/2015	Arista Networks	Cost:$71.65
+Date: 6/24/2014	Arista Networks	Cost:$66.75
+Date: 1/14/2015	Arista Networks	Cost:$65.14
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]

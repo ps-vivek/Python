@@ -1,0 +1,150 @@
+ Connected to: High-frequency trading Network operating system Network switch
+From Wikipedia, the free encyclopedia
+Arista Networks
+
+Type
+Public
+Traded as	NYSE: ANET
+Industry	Networking hardware, Cloud Networking
+Founded	October 2004
+Headquarters	Santa Clara, California, USA
+Key people
+Jayshree Ullal, CEO,
+Andy Bechtolsheim, CDO & Chairman,
+Kenneth Duda, CTO,
+Ita Brennan, CFO
+Products	Network switches, software
+Revenue	Increase US$ 584 million (2014)[1]
+Operating income
+Increase US$ 126 million (2014)[1]
+Net income
+Increase US$ 87 million (2014)[1]
+Total assets	Increase US$ 811 million (2014)[1]
+Total equity	Increase US$ 556 million (2014)[1]
+Website	www.arista.com
+Arista Networks (previously Arastra[2]) is a computer networking company headquartered in Santa Clara, California, USA. 
+The company designs and sells multilayer network switches to deliver software-defined networking (SDN) solutions for large datacenter, cloud computing, 
+high-performance computing and high-frequency trading environments. Arista's products include an array of 10/40/100 Gigabit Ethernet low-latency cut-through switches, 
+including the 7124SX,[3] which remained the fastest switch[4] using SFP+ optics through September 2012,[5] with its sub-500ns latency, as well as the 7500 series, 
+Arista’s award-winning[6] modular 10G/40G/100Gbit/s switch. Arista's own Linux-based network operating system, EOS (Extensible Operating System), runs on all Arista products.
+
+Corporate history
+Andy Bechtolsheim co-founded Sun Microsystems in 1982 and was its chief hardware designer. In 1995, 
+David Cheriton co-founded Granite Systems with Bechtolsheim, a company that developed Gigabit Ethernet products, which 
+was acquired by Cisco Systems in 1996.[7] In 2001, Cheriton and Bechtolsheim founded another start up, Kealia,[8] 
+which was acquired by Sun in 2004. From 1996 to 2003, Bechtolsheim and Cheriton occupied executive positions at Cisco, 
+leading the development of the Catalyst product line, along with Kenneth Duda who had been Granite Systems' first employee.[9]
+
+In 2004, the three then went on to found Arastra (later renamed Arista[2]). Bechtolsheim and Cheriton were able to fund the company 
+themselves.[10] In May 2008, Jayshree Ullal left Cisco after 15 years at the company, and was appointed CEO of Arista in October 2008.[11]
+
+In June 2014, Arista Networks had its initial public offering on the New York Stock Exchange under the symbol ANET.[12]
+
+In December 2014, Cisco filed two lawsuits against Arista alleging extensive intellectual property infringement.[13]
+
+Products
+Extensible Operating System
+EOS is Arista's network operating system, and comes as a single image that runs across all Arista devices[14] or in a 
+virtual machine.[15] EOS runs on an unmodified Linux kernel under a Fedora-based userland.[16] There are more than 100 independent 
+regular processes, called agents, responsible for different aspects and features of the switch, including drivers that manage the switching 
+ASICs, the CLI, SNMP, Spanning Tree Protocol, and various routing protocols. All the state of the switch and its various protocols is centralized 
+in another process, called Sysdb. Separating processing (carried by the agents) from the state (in Sysdb) gives EOS two important properties. 
+The first is software fault containment, which means that if a software fault occurs, the damage is limited to a single agent.[17][18] 
+The second is stateful restarts, since the state is stored in Sysdb, when an agent restarts it picks up where it left off.[18] Since agents 
+are independent processes, they can also be upgraded while the switch is running (a feature called ISSU – In-Service Software Upgrade).
+
+The fact that EOS runs on Linux allows the usage of common Linux tools on the switch itself, such as tcpdump or usual configuration management 
+systems. EOS provides extensive APIs to communicate with and control all aspects of the switch. As a matter of fact, its CLI is a collection of Python 
+scripts that simply call into these APIs, while offering a so-called industry standard CLI that resembles the CLI in IOS. To showcase EOS' extensibility, 
+Arista developed a module dubbed CloudVision[19] that extends the CLI to use XMPP as a shared message bus for managing and configuring switches.[20] 
+This was implemented simply by integrating an existing open-source XMPP Python library with the CLI.
+
+Programmability
+In addition to all the standard programming and scripting capabilities traditionally available in a Linux environment, EOS can be programmed using different mechanisms:
+
+Advanced Event Management[21] can be used to react to various events and automatically trigger CLI commands, execute arbitrary scripts or send alerts when 
+state changes occur in the switch, such as an interface going down or a virtual machine migrating to another host.
+Event Monitor tracks changes made to the MAC, ARP, and routing table in a local SQLite database for later querying using standard SQL queries.[22]
+eAPI (External API)[23] offers a versioned JSON-RPC interface to execute CLI commands and retrieve their output in structured JSON objects.
+Ethernet switches
+Arista's product line can be separated in eight families:
+
+7500E series: Modular chassis with a VOQ fabric supporting up to 4 or 8 store and forward line cards delivering line-rate non-blocking 10GbE, 40GbE, and 
+100GbE[24] performance in a 30Tbit/s fabric supporting a maximum of 1152 10GbE ports with 144GB of packet buffer. Each 100GbE ports can also operate 
+as 3x40G or 12x10G ports,[25] thus effectively providing 120Gb of line-rate capacity per port.
+7300 series: Modular chassis with 4, 8, or 16 line cards with 2.56Tbit/s of capacity per line card, for a fabric totaling up to 40Tbit/s of capacity for 
+up to 2048 10GbE ports.[26] Unlike the 7500 series, 10GBASE-T is available on 7300 series line cards.
+7200 series: 2U low-latency high-density line-rate 40GbE switches, with 5.12Tbit/s of forwarding capacity.[27]
+7100 series: 1U ultra-low latency cut-through line-rate 10Gb switches. The 7124SX has a sub 500ns port-to-port latency, regardless of the 
+frame size.[4]
+The 7124FX, dubbed the "Application Switch,"[28] includes an Altera FPGA capable of processing 8 x 10Gbit/s, which made possible "cut-through 
+high-frequency trading," in which algorithmically generated trades were incurring an additional latency of only 176ns.[29]
+7150 series: 1U ultra-low latency cut-through line-rate 10Gb switches. Port-to-port latency is sub-380ns, regardless of the frame size.[30] Unlike the 
+7100 series, the switch silicon can be re-programmed[31] to add new features that work at wire-speed, such as VXLAN or NAT/PAT.
+7050 series: 1U low-latency cut-through line-rate 10Gb and 40Gb switches. This product line offers a higher port density than the 7100 series, with a 
+minimum of 52 x 10GbE ports, at the expense of slightly increased latency (1.2µs or less).
+7048 series: 1U store and forward line-rate 1Gb top-of-rack switch, with 4x10Gb uplinks. These switches use a Deep Buffer architecture, with 768MB of packet memory.
+7010 series: 1U low power (52W) line-rate 1Gb top-of-rack switch, with 4x10Gb uplinks.[32]
+The low-latency of Arista switches has made the platform prevalent in high-frequency trading environments, such as the Chicago Board Options Exchange[33] (
+largest U.S. options exchange), Lehman Brothers[34] or RBC Capital Markets.[35] As of October 2009, one third of its customers were big Wall Street firms.[36]
+
+Arista's devices are multilayer switches, which support a range of layer 3 protocols,[37] including IGMP, VRRP, RIP, BGP, OSPF, IS-IS, as well as OpenFlow. 
+The switches are also capable of layer 3 or layer 4 ECMP, and applying per-port L3/L4 ACLs entirely in hardware.
+
+All of Arista's switches are built using merchant silicon instead of custom switching ASICs. This strategy enables Arista to leverage 
+latest advances in processor manufacturing technology at a lower price point, due to the prohibitive costs associated with the development 
+and production of custom chips. Other major competitors such as Cisco and Juniper have also started following the same strategy,[38] 
+which led to multiple competing products built on top of the same chips. For instance Broadcom's Trident chip is used in some Cisco 
+Nexus switches, Juniper QFX switches, Force10, IBM and HP switches.[39] The integration of the chips with the rest of the system 
+including integration with the MAC, PHY, and device drivers on the control plane) and software are what differentiate the competing products.
+
+In November 2013, Arista Networks introduced the Spline network, combining leaf and spine architectures into a single-tier network, which aims to cut operational costs.[40]
+
+Major competitors
+Brocade Communications Systems
+Cisco Systems
+Extreme Networks
+Juniper Networks
+References
+External links
+Categories
+
+About Arista
+
+Arista Networks was founded to pioneer and deliver software-driven cloud networking solutions for large data center storage and computing 
+environments. Arista’s award-winning platforms, ranging in Ethernet speeds from 10 to 100 gigabits per second, redefine scalability, agility 
+and resilience. Arista has shipped more than five million cloud networking ports worldwide with CloudVision and EOS, an advanced network operating system. 
+Committed to open standards, Arista is a founding member of the 25/50GbE consortium. Arista Networks products are available worldwide directly and through partners.
+
+.Corporate Profile
+
+Strong Management Team
+
+Arista was founded in 2004, launched in 2008 and is led by Jayshree Ullal. The seasoned management team has a rich and extensive history 
+in networking and innovation. Arista was recognized by Gartner as a "leader" in its "2015 Magic Quadrant for Data Center Networking" based 
+on a number of factors, including high growth, technology solutions and flexible software. The Arista team is globally recognized as respected 
+leaders and visionaries in networking technology.
+
+Customers
+
+Arista has a prestigious set of customers, including leading global technology companies in financials, web 2.0 and cloud/service providers, 
+building public and private cloud computing systems. Arista builds scalable data centers for many Fortune 500 companies and delivers products 
+worldwide though distribution partners, systems integrators and resellers with a strong dedication to partner and customer success. Headquartered 
+in Santa Clara, California, Arista also has offices in San Francisco, Bangalore, Vancouver, Singapore and Ireland.
+
+Product Offerings
+
+Arista’s crown jewel, EOS, is the most advanced network operating system to enable open third party development. 
+The award-winning software is built upon a stable, open source Linux core with a central state-oriented database that 
+makes EOS inherently self-healing, in-service upgradeable and extremely robust. Arista EOS Central offers access to development tools, 
+scripting examples, and support to deliver real-world solutions that bridge the gap between what vendors build and what users want. 
+Arista actively shares code samples, engages in collaborative forums, and posts works in progress to get early insight into use cases.
+
+Arista Networks is a leader in building scalable, high-performance and ultra-low latency cloud networks with low power consumption 
+and a small footprint for modern data center and cloud computing environments. Purpose-built hardware with Arista 7000 family and Arista EOS, 
+aximize system uptime, stateful fault repair, Advanced Event Management, Zero Touch Provisioning, latency analysis and a 
+fully accessible Linux shell. Arista’s Ethernet switching solutions include native support for VMware, network-virtualization 
+and hundreds of applications. Arista’s hardware platforms are designed to meet the stringent power and cooling requirements of today’s 
+most demanding data centers, proven advantages already in use in many of the largest cloud data centers around the world.
+and hundreds of applications. Arista’s hardware platforms are designed to meet the stringent power and cooling requirements of today’s 
+most demanding data centers, proven advantages already in use in many of the largest cloud data centers around the world.
